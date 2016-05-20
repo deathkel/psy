@@ -1,0 +1,72 @@
+@charset "utf-8";
+body{
+	font-family: "微软雅黑";
+}
+
+.wrapper{
+	margin: 0 auto 0;
+	width: 800px;
+	height: 1805px;
+	background-image:  ;
+}
+
+.logo{
+	height: 120px;	
+}
+
+
+.caidan{
+	height: 30px;
+}
+
+
+
+/*以下为滚动条*/
+.banner{
+	margin-top: 50px;
+	height: 420px;
+}
+
+
+/*以下为书籍推荐*/
+.main{
+	margin-top: 10px;
+	height: 635px;
+}
+
+.left{
+	width: 260px;
+	height: 635px;
+	float: left;
+}
+
+.middle{
+	width: 260px;
+	height: 635px;
+	float: left;
+}
+
+.right{
+	width: 260px;
+	height: 635px;
+	float: left;
+}
+
+.blank{
+	width: 7px;
+	height: 635px;
+	float: left;
+}
+
+.player{
+	margin-top:20px;
+	height:340px;
+}
+
+.footer{
+	margin-top: 10px;
+	height: 170px;
+}
+a{
+	text-decoration: none;
+}

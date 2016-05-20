@@ -19,7 +19,7 @@ class UserController extends Controller
 {
     public function login(){
 
-        return view('business.pc.nlogin');
+        return view('home.index');
     }
 
     /**

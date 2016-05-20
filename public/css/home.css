@@ -1,0 +1,103 @@
+@charset "utf-8";
+body{
+	font-family: "微软雅黑";
+}
+
+.wrapper{
+	margin: 0 auto 0;
+	width: 800px;
+	height: 1570px;
+	background-image:  ;
+}
+
+.logo{
+	height: 120px;	
+}
+
+.caidan{
+	height: 30px;
+}
+
+/*以下为滚动条*/
+.banner{
+	margin-top: 50px;
+	height: 420px;
+}
+
+
+/*以下为书籍推荐*/
+.main{
+	margin-top: 10px;
+	height: 760px;
+}
+
+.left{
+	width: 540px;
+	height: 760px;
+	float: left;
+}
+
+.left .group{
+	height: 190px;
+}
+
+.left .group .top {	
+}
+.left .group .top a {
+	color: #000;
+}
+
+.left .group .top a:hover {
+	color: #999;
+}
+
+
+.left .group .top .fenlei {
+	float: left;
+	width: 450px;
+	height: 30px;
+}
+
+.left .group .top .more {
+	float: left;
+	width: 90px;
+	height: 30px;
+}
+.left .group .shujia {
+}
+.left .shujia .book {
+	height: 160px;
+	width: 100px;
+	float: left;
+	margin-right: 8px;
+}
+
+.left .shujia .book .fengmian {
+	height: 130px;
+}
+.left .shujia .book .biaoti {
+	height:30px
+}
+
+
+/*以下为留白*/
+.main .blank{
+	width: 20px;
+	height: 760px;
+	float: left;
+}
+
+/*以下为榜单(详细单开样式表)*/
+.right{
+	width: 240px;
+	height: 760px;
+	float: left;
+}
+.footer{
+	margin-top: 10px;
+	height: 170px;
+}
+
+a{
+	text-decoration: none;
+}

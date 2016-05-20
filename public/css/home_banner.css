@@ -1,0 +1,37 @@
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/BebasNeue-webfont.eot');
+    src: url('../fonts/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/BebasNeue-webfont.woff') format('woff'),
+         url('../fonts/BebasNeue-webfont.ttf') format('truetype'),
+         url('../fonts/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+
+
+q:before,q:after {
+	content:'';
+}
+
+/* General Demo Style */
+
+
+.benti{
+	width: 100%;
+	position: relative;
+	text-align: center;
+}
+
+@-webkit-keyframes slideOut{
+	0%{top:-30px; opacity: 0;}
+	100%{top:0px; opacity: 1;}
+}
+/* Media Queries */
+@media screen and (max-width: 767px) {
+}
