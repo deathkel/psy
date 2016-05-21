@@ -58,7 +58,6 @@ ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,p,form,em,span{
 	line-height:26px;
 	overflow:hidden;
 }
-.txt h1 span{font-weight:normal;font-size:12px;color:#777;background:url(/images/uinfo120305/u1.gif) no-repeat;padding:3px 0 3px 18px;margin-right:20px}
 .txt h1 a{color:#c00;font-size:14px;margin-right:20px}
 .txt h1 a:hover{color:#f00}
 .txt ul{

@@ -2,30 +2,12 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>奇幻小说网-搜索结果</title>
-<link href="../css/search.css" rel="stylesheet" type="text/css">
+<title>奇幻小说网-我的原创</title>
+<link rel="icon" href="../img/icon.png" />
+<link href="../css/mynovel.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-<div class="wrapper">
-	<a href="1_home.html"><div class="logo"></div></a>
-	<nav class="caidan">
-		<ul>
-			<li><a href="2_dongfang.html" data-clone="东方玄幻">东方玄幻</a></li>
-			<li><a href="2_xifang.html" data-clone="西方魔幻">西方魔幻</a></li>
-			<li><a href="2_weilai.html" data-clone="未来科幻">未来科幻</a></li>
-		</ul>
-	</nav>
-	<div id="search"><input type="text" placeholder="搜索作者/书名，按回车键确认" autofocus x-webkit-speech></div>
-	<nav class="caidan">
-		<ul>
-			<li><a href="2_yuanchuang.html" data-clone="用户原创">用户原创</a></li>
-			<li><a href="3_upload.html" data-clone="我要创作">我要创作</a></li>
-			<li><a href="3_personal.html" data-clone="个人中心">个人中心</a></li>
-		</ul>
-	</nav>
-    <div class="blank"></div>
-    <div class="tishi">根据您输入的关键词，我们为您找到以下内容：</div>
 	<div class="novellist">
     	<!--一个作品开始-->
 			<div class="zuopin">
@@ -56,7 +38,5 @@
 			</div>
          <!--一个作品结束-->
 	</div>  
-    <div class="footer"></div>
-</div>
 </body>
 </html>

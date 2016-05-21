@@ -21,15 +21,15 @@
                 <div id="login" class="animate form">
                     <form autocomplete="on">
                         <p>
-                            <label class="uname" data-icon="u" >用户名</label>
+                            <label class="uname" id="login-name" data-icon="u" >用户名</label>
                             <input id="username" name="username" required type="text" placeholder="请输入您的用户名"/>
                         </p>
                         <p>
-                            <label class="youpasswd" data-icon="p">密&nbsp;&nbsp;&nbsp;码</label>
+                            <label class="youpasswd" id="login-password" data-icon="p">密&nbsp;&nbsp;&nbsp;码</label>
                             <input id="password" name="password" required type="password" placeholder="请输入密码，注意大小写" />
                         </p>
                         <p class="login button">
-                            <input type="submit" value="登录" />
+                            <input type="submit" id="login" value="登录" />
                         </p>
                         <p class="change_link">
                             <a href="#toforget" class="to_register">忘记密码</a>
@@ -84,4 +84,22 @@
     </section>
 </div>
 </body>
+<script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
+<script>
+$('#login').click(function(){
+    var data_package = {};
+    data_package.name=$('#login-name').val();
+    data_package.password=$('#login-password').val();
+    $.post('',data_package,function(data){
+        if (data.status == 1) {
+            alert(data.data);
+            window.location.href = '/';
+        }
+        else {
+            alert(data.error_msg);
+        }
+    },"json");
+
+});
+</script>
 </html>

@@ -1,67 +1,4 @@
 @charset "utf-8";
-body{
-	font-family: "微软雅黑";
-	padding:0;
-	margin:0;
-}
-
-.wrapper{
-	margin: 0 auto 0;
-	width: 800px;
-	height: 1000px;
-	background-image:  ;
-}
-
-.logo{
-	height: 120px;	
-}
-
-
-.caidan{
-	height: 30px;
-}
-
-.blank{
-	height: 30px;
-}
-
-
-/*以下为书籍推荐*/
-.main{
-	margin-top: 10px;
-	height: 650px;
-}
-
-.left{
-	width: 200px;
-	height: 650px;
-	float: left;
-}
-
-.left ul li {
-	cursor: pointer;
-	list-style-type: none;
-	height: 30px;
-	width: 200px;
-	margin-bottom: 10px;
-	margin-top: 10px;
-}
-
-
-
-.right{
-	width: 600px;
-	height: 650px;
-	float: left;
-}
-
-
-.footer{
-	height: 170px;
-}
-a{
-	text-decoration: none;
-}
 .caidan {
 	color: white;
 	text-transform: uppercase;
@@ -138,7 +75,6 @@ width:100px;
   margin-bottom:1px;
 }
 
-
 #search{
 	width: 200px;
 	float: left;	
@@ -146,8 +82,4 @@ width:100px;
 #search input {
 	height: 24px;
 	width: 196px;
-}
-ul,ol,li{
-margin:0;/*设置外补白为0*/
-padding:0;/*设置内补白为0*/
 }

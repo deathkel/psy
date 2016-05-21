@@ -17,6 +17,9 @@ use Illuminate\Http\Response;
 class BookController extends Controller
 {
 
+    public function create(Request $request){
+
+    }
     public function index(Request $request){
         //搜索
         if($search=$request->input('search')){
